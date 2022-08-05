@@ -52,6 +52,7 @@ Moreover there are meta sequences
 
 2. { } : Quantifiers  
 Examples:  
+
 |Pattern	 |Matches 																	  |
 |------------|----------------------------------------------------------------------------|
 |\[a-z]{3}	 |cat, bat, hat 		# Any string that has characters a-z exactly 3 times. |
