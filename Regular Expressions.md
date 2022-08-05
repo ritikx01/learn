@@ -41,22 +41,23 @@ Examples:
 
 All these match only single characters, meaning in 'cat' [a-z] will maych c,a,t seperately.
 Moreover there are meta sequences
-	Pattern		Matches					Not Matches
-	\w		Any word character [0-9a-zA-Z_]		New line, space, tab etc.
-	\W		Anything except word character				
-	\s		matches any whitespace character		
-	\S		Any non whitespace character 
-	\d		Any digit
-	\D		Any non digit  
+|Pattern |		Matches					  | Not Matches              |
+|--------|--------------------------------|--------------------------|
+|\w		 |Any word character [0-9a-zA-Z_] |	New line, space, tab etc.|
+|\W		 |Anything except word character  |							 |
+|\s		 |matches any whitespace character|		                     |
+|\S		 |Any non whitespace character    |							 |
+|\d		 |Any digit 					  |							 |
+|\D		 |Any non digit  				  |							 |
 
-2. { } : Quantifiers
-Examples:
-|Pattern	|Matches 																	 |
-|-----------|----------------------------------------------------------------------------|
-|\[a-z]{3}	|cat, bat, hat 		# Any string that has characters a-z exactly 3 times.	 |
-|\[a-z]{3-5}	|cat, take, apple	# Any string that has characters a-z 3,4 or 5 times. |
-|\[a-z]{3,}	|cat, apple, infinity	# Any string that has characters a-z 3 or more times.|
-|\[0-9]{10}	|Phone numbers		# Any string that has 10 digits							 |
+2. { } : Quantifiers  
+Examples:  
+|Pattern	 |Matches 																	  |
+|------------|----------------------------------------------------------------------------|
+|\[a-z]{3}	 |cat, bat, hat 		# Any string that has characters a-z exactly 3 times. |
+|\[a-z]{3-5} |cat, take, apple	# Any string that has characters a-z 3,4 or 5 times.      |
+|\[a-z]{3,}	 |cat, apple, infinity	# Any string that has characters a-z 3 or more times. |
+|\[0-9]{10}	 |Phone numbers		# Any string that has 10 digits							  |
 
 **Note: This will only output the matched part, say string is `abcd01234567890abcd` then [0-9]{10} will match only the 
 digit part of the string and not the whole string. Output: 0123456789**
