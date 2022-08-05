@@ -54,7 +54,7 @@ Examples:
 |Pattern	|Matches 																	 |
 |-----------|----------------------------------------------------------------------------|
 |\[a-z]{3}	|cat, bat, hat 		# Any string that has characters a-z exactly 3 times.	 |
-|\[a-z]{3-5}	|cat, take, apple	# Any string that has characters a-z 3,4 or 5 times.	 |
+|\[a-z]{3-5}	|cat, take, apple	# Any string that has characters a-z 3,4 or 5 times. |
 |\[a-z]{3,}	|cat, apple, infinity	# Any string that has characters a-z 3 or more times.|
 |\[0-9]{10}	|Phone numbers		# Any string that has 10 digits							 |
 
