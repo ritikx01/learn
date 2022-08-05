@@ -41,14 +41,14 @@ Examples:
 
 All these match only single characters, meaning in 'cat' [a-z] will maych c,a,t seperately.
 Moreover there are meta sequences
-|Pattern |		Matches					  | Not Matches              |
-|--------|--------------------------------|--------------------------|
-|\w		 |Any word character [0-9a-zA-Z_] |	New line, space, tab etc.|
-|\W		 |Anything except word character  |							 |
-|\s		 |matches any whitespace character|		                     |
-|\S		 |Any non whitespace character    |							 |
-|\d		 |Any digit 					  |							 |
-|\D		 |Any non digit  				  |							 |
+|Pattern |		Matches					  | Not Matches               |
+|--------|--------------------------------|---------------------------|
+|\w		 |Any word character [0-9a-zA-Z_] |	New line, space, tab etc. |
+|\W		 |Anything except word character  |							  |
+|\s		 |matches any whitespace character|		                      |
+|\S		 |Any non whitespace character    |							  |
+|\d		 |Any digit 					  |							  |
+|\D		 |Any non digit  				  |							  |
 
 2. { } : Quantifiers  
 Examples:  
