@@ -29,15 +29,15 @@ are used for matching whole strings.
 ### Regex Tokens
 1. \[ ] : Character classes are used to specify range.
 Examples:
-|Pattern 	|Matches							|Not Matches						|
-|-----------|-----------------------------------|-----------------------------------|
-|\[a-z] 		|a, b, c, d ..... z					|4, 2, A, Z, .						|
-|\[A-Z]		|A, B, C, D ..... Z					|4, 2, a, z, .						|
-|\[0-9] 		|0, 1, 2, 3, 4 ..... 9				|A, Z, a, z, .						|
-|\[a-zA-Z0-9]|a,b,c .... z, A, B, C .... Z, 0, 1	|., \", %							|
-|\[abc]		|a,b,c								|d, e, D, E		# Any one of these 	|
-|\[^e-h]		|a, ..  d, i ... z.					|# Any character not in the range of e-h, also matches numbers etc|
-|\[^abc]		|d, e, A, Z, 0, 9					|a, b, c 							|
+|Pattern 	|Matches							|Not Matches						                              |
+|-----------|-----------------------------------|-----------------------------------------------------------------|
+|[a-z] 		|a, b, c, d ..... z					|4, 2, A, Z, .						                              |
+|[A-Z]		|A, B, C, D ..... Z					|4, 2, a, z, .						                              |
+|[0-9] 		|0, 1, 2, 3, 4 ..... 9				|A, Z, a, z, .						                              |
+|[a-zA-Z0-9]|a,b,c .... z, A, B, C .... Z, 0, 1	|., \", %							                              |
+|[abc]		|a,b,c								|d, e, D, E		# Any one of these 	                              |
+|[^e-h]		|a, ..  d, i ... z.					|# Any character not in the range of e-h, also matches numbers etc|
+|[^abc]		|d, e, A, Z, 0, 9					|a, b, c 							                              |
 
 All these match only single characters, meaning in 'cat' [a-z] will maych c,a,t seperately.
 Moreover there are meta sequences
