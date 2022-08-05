@@ -27,7 +27,7 @@ Apart from literal strings like cat, there are special reserved character combin
 are used for matching whole strings.
 
 ### Regex Tokens
-1. \[ ] : Character classes are used to specify range.
+1. \[ ] : Character classes are used to specify range.  
 Examples:
 |Pattern 	  |Matches							    |Not Matches						                              |
 |-------------|-------------------------------------|-----------------------------------------------------------------|
