@@ -49,6 +49,7 @@ Moreover there are meta sequences
 |\S		 |Any non whitespace character    |							  |
 |\d		 |Any digit 					  |							  |
 |\D		 |Any non digit  				  |							  |
+|" "             |Match one space, `" *"` for all spaces|         |                   |                   |
 
 2. { } : Quantifiers  
 Examples:  
